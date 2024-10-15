@@ -38,7 +38,7 @@ The data used in this study was collected from a field laboratory located at the
 To use this model:
 
 1. Clone the repository
-2. Install the required dependencies (list of dependencies to be added)
+2. Install the required dependencies (list of dependencies shown in the first block of code)
 3. Open the `PINN-SM.ipynb` notebook in Jupyter
 4. Follow the instructions within the notebook to train and test the model
 
