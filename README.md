@@ -1,5 +1,5 @@
 # PINN-SM: Physics-Informed Neural Networks for Soil Moisture Prediction
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 ## Overview
 
 This repository contains the code and data for the PINN-SM (Physics-Informed Neural Networks for Soil Moisture) model. PINN-SM is designed to predict root zone soil moisture profiles from the surface to a depth of 100cm.
