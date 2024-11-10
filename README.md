@@ -1,4 +1,4 @@
-# PINN-SM: Physics-Informed Neural Networks for Soil Moisture Prediction
+# PINN-SM: Physics-Informed Neural Networks for Vadose Zone Soil Moisture Prediction From Meteorological Inputs
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.13996883)
 ## Overview
 
@@ -23,11 +23,15 @@ PINN-SM leverages physics-informed neural networks to predict soil moisture cont
 ## Repository Contents
 
 1. `PINN-SM.ipynb`: Jupyter notebook containing the code for training and testing the PINN-SM model.
-2. `training.csv`: Dataset used for training and testing the model, containing meteorological and soil-related variables.
+2. `training.csv`: Dataset used for training and testing the PINN-SM model, containing meteorological and soil-related variables.
+3. `Transfer_learning.ipynb`: Jupyter notebook containing the code for training and testing the PINN-SM model during transfer learning experiment.
+4. `training_for_transfer.csv`: Dataset used for training and testing the PINN-SM model, containing meteorological and soil-related variables during the transfer learning experiment.
+5. `PINN_SM.pth`: Trained PINN-SM model used as an input for transfer learning experiment
+6. `ANN.pth`: Trained ANN model used as an input for transfer learning experiment
 
 ## Data Source
 
-The data used in this study was collected from a field laboratory located at the Brackenridge Laboratory of The University of Texas at Austin, Austin, Texas. This dataset provides a comprehensive set of environmental variables necessary for soil moisture prediction in a real-world setting.
+The data used in this study was collected from a field laboratory located at the Brackenridge Laboratory of The University of Texas at Austin, Austin, Texas. This dataset provides a comprehensive set of environmental variables necessary for soil moisture prediction in a real-world setting. The data used for the transfer learning experiment was from a soil moisture station in Texas Soil Moisture Observation Network (TxSON) located in Waco, Texas.
 
 ## Requirements
 
@@ -39,7 +43,7 @@ To use this model:
 
 1. Clone the repository
 2. Install the required dependencies (list of dependencies shown in the first block of code)
-3. Open the `PINN-SM.ipynb` notebook in Jupyter
+3. Open the `PINN-SM.ipynb` or `Transfer_learning.ipynb` notebook in Jupyter
 4. Follow the instructions within the notebook to train and test the model
 
 ## Citation
